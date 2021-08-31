@@ -14,7 +14,7 @@ body {
   padding-bottom: 150px;
   padding-top: 50px;
     line-height: 1.6;
-      font-size:2.3vw;
+    font-size:4vw;
 }
 
 h3.linee {
@@ -26,7 +26,7 @@ h2{
   margin-top: 40px;
   margin-bottom: 50px;
     line-height: 1.6;
-      font-size:2.3vw;
+    font-size:4vw;
 }
 
 h3 {
@@ -35,5 +35,5 @@ h3 {
   padding-left: 20px;
   padding-bottom: 30px;
     line-height: 1.6;
-      font-size:2.3vw;
+    font-size:4vw;
 }
