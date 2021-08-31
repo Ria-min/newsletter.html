@@ -1,0 +1,55 @@
+
+
+div.n1{
+  background-color: #FDEFEF;
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
+body {
+  color: DarkSlateGray;
+  background-color: F4DFD0;
+  line-height: 200%;
+  margin: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+h3.linee {
+  border-top: 4px gray solid;
+}
+
+h2{
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+h3 {
+  margin: 0;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}

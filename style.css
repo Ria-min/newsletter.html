@@ -1,0 +1,63 @@
+
+
+    div.b {
+    line-height: 1.6;
+    padding-left: 96px;
+    padding-right: 96px;
+
+    }
+
+
+    div.background {
+      background-color: Lavender;
+
+    }
+
+    div.line {
+      border-bottom: 1px solid gray;
+      padding-top: 13px;
+      padding-bottom: 13px;
+    }
+
+    div.colorline {
+      border-bottom: 9px solid MediumSlateBlue;
+    }
+
+    div.txt {
+      text-align: left;
+
+    }
+
+    div.right {
+      text-align: right;
+    }
+
+
+    h1 {
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+
+
+      p img {
+        animation-duration: 3s;
+        animation-name: slidein;
+      }
+
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+
+        75% {
+          font-size: 300%;
+          margin-left: 25%;
+          width: 150%;
+        }
+
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
