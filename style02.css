@@ -1,30 +1,10 @@
-p {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  75% {
-    font-size: 300%;
-    margin-left: 25%;
-    width: 150%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 
   h3 {
     margin: 0;
-    padding-top: 60px;
+    padding-top: 120px;
     padding-bottom: 17px;
+      font-size:2.3vw;
+      line-height: 1.6;
   }
 
   body {
@@ -32,12 +12,18 @@ p {
     background-color: FloralWhite;
     line-height: 200%;
     margin: 0;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-top: 90px;
+    padding-bottom: 190px;
+      font-size:2.3vw;
+      line-height: 1.6;
   }
 
   h1{
     border-bottom: 6px darkgray solid;
     margin: 0;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
+      font-size:2.3vw;
+      line-height: 1.6;
   }

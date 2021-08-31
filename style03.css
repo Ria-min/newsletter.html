@@ -4,47 +4,29 @@ div.n1{
   background-color: #FDEFEF;
 }
 
-p {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  75% {
-    font-size: 300%;
-    margin-left: 25%;
-    width: 150%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-
-
 body {
   color: DarkSlateGray;
-  background-color: F4DFD0;
+  background-color: #F4DFD0;
   line-height: 200%;
   margin: 0;
   padding-left: 40px;
   padding-right: 40px;
+  padding-bottom: 150px;
+  padding-top: 50px;
+    line-height: 1.6;
+      font-size:2.3vw;
 }
 
 h3.linee {
   border-top: 4px gray solid;
+  padding-top: 99px;
 }
 
 h2{
   margin-top: 40px;
   margin-bottom: 50px;
+    line-height: 1.6;
+      font-size:2.3vw;
 }
 
 h3 {
@@ -52,4 +34,6 @@ h3 {
   padding-top: 30px;
   padding-left: 20px;
   padding-bottom: 30px;
+    line-height: 1.6;
+      font-size:2.3vw;
 }
